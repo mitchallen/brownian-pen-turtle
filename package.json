@@ -1,0 +1,22 @@
+{
+  "name": "brownian-pen-turtle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "mkdir -p output",
+    "start": "node index.js",
+    "clean": "rm -rf output",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brownian",
+    "svg"
+  ],
+  "author": "Mitch Allen",
+  "license": "MIT",
+  "dependencies": {
+    "@mitchallen/pen-svg": "^0.2.7",
+    "@mitchallen/pen-turtle": "^0.31.0"
+  }
+}
